@@ -1,0 +1,3 @@
+extend type Query @guard(with: ["sanctum"]) {
+    me: User @auth(guard: "web")
+}
