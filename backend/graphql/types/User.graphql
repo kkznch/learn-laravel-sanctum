@@ -1,4 +1,5 @@
 type User {
     nickname: String!
     email: String!
+    threads: [Thread]! @hasMany
 }

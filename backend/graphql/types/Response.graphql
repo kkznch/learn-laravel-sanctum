@@ -1,0 +1,7 @@
+type Response {
+    user: User!
+    thread: Thread!
+    body: String!
+    created_at: Date!
+    updated_at: Date
+}
