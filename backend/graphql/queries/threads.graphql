@@ -1,3 +1,4 @@
 extend type Query @guard(with: ["sanctum"]) {
     threads: [Thread]! @all
+    thread(id: ID @eq): Thread @find
 }
