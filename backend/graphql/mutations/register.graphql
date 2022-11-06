@@ -1,0 +1,9 @@
+input RegisterInput @validator {
+    nickname: String!
+    email: String!
+    password: String!
+}
+
+extend type Mutation {
+    register(input: RegisterInput! @spread): User!
+}
