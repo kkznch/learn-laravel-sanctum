@@ -11,7 +11,7 @@ class Response extends Model
     use HasFactory;
 
     /**
-     * @var array
+     * @var array<string>
      */
     protected $fillable = [
         'body',
