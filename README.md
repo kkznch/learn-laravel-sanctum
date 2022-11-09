@@ -30,7 +30,7 @@ $ cd ..
 ## Usage
 Laravelを起動する。
 ```sh
-$ (cd backend && php artisan tinker)
+$ (cd backend && php artisan serve)
 ```
 
 Next.jsを起動する。
