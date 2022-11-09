@@ -12,7 +12,7 @@ class Thread extends Model
     use HasFactory;
 
     /**
-     * @var array
+     * @var array<string>
      */
     protected $fillable = [
         'title',
