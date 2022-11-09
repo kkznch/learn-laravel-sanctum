@@ -51,10 +51,10 @@
             "@php artisan key:generate --ansi"
         ],
         "phpcs": [
-            "./vendor/bin/phpcs --standard=phpcs.xml ."
+            "@php -d memory_limit=1G ./vendor/bin/phpcs --standard=phpcs.xml ."
         ],
         "phpcbf": [
-            "./vendor/bin/phpcbf --standard=phpcs.xml ./"
+            "@php -d memory_limit=1G ./vendor/bin/phpcbf --standard=phpcs.xml ./"
         ],
         "phpstan": [
             "@php -d memory_limit=1G ./vendor/bin/phpstan analyse -c phpstan.neon"
