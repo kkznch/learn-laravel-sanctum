@@ -2,6 +2,6 @@ type Thread {
     user: User! @belongsTo
     title: String!
     responses: [Response]!
-    created_at: Date!
-    updated_at: Date
+    created_at: DateTime!
+    updated_at: DateTime
 }
